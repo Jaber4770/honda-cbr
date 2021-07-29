@@ -7,14 +7,70 @@
     <title>Honda CBR</title>
     <!-- bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font-awesome link -->
+    <script src="https://kit.fontawesome.com/ffd6fdf319.js" crossorigin="anonymous"></script>
     <!-- favicon link -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!-- vanila css link -->
+    <!-- vanilla css link -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
+    <header class="bg-color">
+        <nav class="navbar navbar-expand-lg navbar-dark mr-3">
+                <div class="container">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                    </ul>
+                    <button type="button" class="btn btn-secondary">login</button>
+                  </div>
+                </div>
+        </nav>
+        <section class="container d-flex justify-content-center align-items-center mt-3">
+          <div class="top-height">
+                  <p class="text-light pragh-f-size">Computer-controlled digital transistorized with electronic advance</p>
+                  <h1 class="text-light header-f-size fw-bold">Honda CBR 300R</h1>
+                  <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis neque, adipisci aliquid sint expedita magnam iusto dicta, quis voluptate asperiores voluptates aliquam rerum dolor cupiditate reprehenderit doloribus dolore, aspernatur sit.</p>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-bg text-light btn-style" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Purchase</button>
 
+                  <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">Are you sure to Purchase?</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          This is a sports bike.You can control it easily.A comfortable bike in 2021.You are going to buy it.If you want to buy this bike please confirm it.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <a href="https://www.bikebd.com/price/new-honda-cbr150r/" target="_blank"><button type="button" class="btn btn-primary">Confirm</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="top-height">
+            <img src="images/header-bike.png" alt="">
+          </div>
+        </section>
     </header>
     <main>
 

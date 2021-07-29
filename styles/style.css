@@ -54,3 +54,13 @@ body{
 .grayscale{
     filter: grayscale(100%);
 }
+/* user style  */
+.user-name-stle{
+    font-size: 14px;
+    font-weight: 600;
+    color:#23A6F0;
+}
+.banker{
+    font-size: 14px;
+    font-weight: 600;
+}

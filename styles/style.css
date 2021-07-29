@@ -17,6 +17,7 @@ body{
  ---*/
 .header-f-size{
     font-size: 48px;
+    font-weight: 600;
 }
 .pragh-f-size{
     font-size: 14px;
@@ -28,6 +29,28 @@ body{
     font-weight: 500;
     padding:10px 46px;
 }
-.top-height{
-    margin-bottom: 86px;
+.header-bike-margin{
+    margin-bottom: 7%;
+}
+/* ---
+    main section style
+--- */
+
+/* feature bike section  */
+.text-color{
+    color:#E76F51;
+}
+.feture-m-top{
+    margin-top: 64px;
+}
+.bike-margin{
+    margin-right: 138px;
+    margin-left: 138px;
+}
+.margin-y{
+    margin-top: 96px;
+    margin-bottom: 100px;
+}
+.grayscale{
+    filter: grayscale(100%);
 }

@@ -9,12 +9,13 @@ body{
     margin: 0;
     padding: 0;
 }
-.bg-color{
-    background-color: #264653;
-}
+
 /*--- 
     header style 
  ---*/
+.bg-color{
+    background-color: #264653;
+}
 .header-f-size{
     font-size: 48px;
     font-weight: 600;
@@ -44,8 +45,7 @@ body{
     margin-top: 64px;
 }
 .bike-margin{
-    margin-right: 138px;
-    margin-left: 138px;
+    width: 100%;
 }
 .margin-y{
     margin-top: 96px;
@@ -53,6 +53,7 @@ body{
 }
 .grayscale{
     filter: grayscale(100%);
+    width:100%;
 }
 /* user style  */
 .user-name-stle{

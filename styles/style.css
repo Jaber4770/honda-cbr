@@ -46,6 +46,7 @@ body{
 }
 .bike-margin{
     width: 100%;
+    padding:10%;
 }
 .margin-y{
     margin-top: 96px;
@@ -54,6 +55,7 @@ body{
 .grayscale{
     filter: grayscale(100%);
     width:100%;
+    padding:8%;
 }
 /* user style  */
 .user-name-stle{

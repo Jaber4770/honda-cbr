@@ -33,6 +33,9 @@ body{
 .header-bike-margin{
     margin-bottom: 7%;
 }
+.header-bike-margin img{
+    width:100%;
+}
 /* ---
     main section style
 --- */
